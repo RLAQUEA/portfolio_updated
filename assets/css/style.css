@@ -1,4 +1,4 @@
-/* Custom Stylesheet */
+Custom Stylesheet
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: rgb(38, 12, 129);
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #5c6bc0 ;
 }
 
 .parallax-container {
