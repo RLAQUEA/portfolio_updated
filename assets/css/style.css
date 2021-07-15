@@ -42,6 +42,27 @@ opacity: 85%;
 border-radius: 5%;
 }
 
+.project-block {
+
+  font-size: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-evenly;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+h1 {
+  padding-top: 15%;
+
+}
+
+
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -58,19 +79,8 @@ border-radius: 5%;
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
 
 
-h1 {
-  padding-top: 15%;
 
-}
+
+
