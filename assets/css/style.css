@@ -6,6 +6,12 @@ Custom Stylesheet
  * Made By MaterializeCSS.com
  */
 
+ body {
+   color: black;
+ }
+
+
+
 nav ul a,
 nav .brand-logo {
   color: rgb(38, 12, 129);
