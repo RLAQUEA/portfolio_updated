@@ -43,36 +43,40 @@ align-items: center;
 }
 
 .page-footer {
-max-height: 15%;
+max-height: 5%;
 opacity: 85%;
 border-radius: 5%;
 }
 
 .project-block {
-
   font-size: inherit;
   display: flex;
-  flex-direction: row;
-  align-items: right;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 25%;
 }
 
 footer.page-footer {
   margin: 0;
+  
 }
 
 
-h1 {
+h1 h3 {
   padding-top: 15%;
 
 }
 
-.project-link {
-  font-size: medium;
+.project-block {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
   color: white;
   background-color: #5c6bc0;
   margin-right: 10%;
   margin-left: 70%;
+  padding-right: 10%;
 }
 
 .project-button {
@@ -87,6 +91,7 @@ h1 {
   justify-content: space-evenly;
 }
 
+
 .repo-button {
   font-size: large;
   background-color: whitesmoke;
@@ -99,6 +104,48 @@ h1 {
   border: solid 2px teal;
 }
 
+.images {
+  max-width: 1000px;
+  min-width: 800px;
+  border: solid 10px #5c6bc0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.code, .weather, .parks {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: space-evenly;
+ 
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: space-evenly;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -115,30 +162,3 @@ h1 {
   }
 }
 
-.images {
-  max-width: 1000px;
-  min-width: 800px;
-  border: solid 10px #5c6bc0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-left: 50%;
-  margin-top: 10%;
-}
-
-
-.code, .weather, .parks {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
