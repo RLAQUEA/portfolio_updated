@@ -45,7 +45,7 @@ max-height: 5%;
 opacity: 85%;
 }
 
-.project-block {
+ .project-block { 
   font-size: inherit;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ opacity: 85%;
   background-color:black;
   padding: 10% 10%;
   border-radius: 5% 5% 5% 5%;
-}
+} 
 
 footer.page-footer {
   margin: 0;
@@ -71,16 +71,14 @@ h1 h3 h4 {
   color:#5c6bc0;
   padding: 3%;
   border-radius: 5%;
-}
+} 
 .project-link {
     color: teal;;
     border: solid 3px lightcyan;
     padding: 3%;
-    border-radius: 5%;
+    border-radius: 5%; 
 
   }
-
-
 
 .project-title {
   text-align: center;
@@ -140,14 +138,14 @@ margin-top: 10%;
   align-items: center;
   justify-content: center;
 }
-
+/* 
 .column {
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: space-evenly;
- 
-}
+  min-width: 100px;
+} */
 
 .row {
   display: flex;
@@ -156,10 +154,6 @@ margin-top: 10%;
   align-items: space-between;
   justify-content: space-evenly;
 }
-
-
-
-
 
 
 body {
