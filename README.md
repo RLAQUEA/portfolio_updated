@@ -1,1 +1,3 @@
-# portfolio_updated
+# Professional Portfolio 
+
+### This portfolio is a different style than the previous version.  The site has  links to my Github, LinkedIn and my personal contact information.  The portfolio has a parallax scrolling feature for the background image and was styled using Materialize CSS as well as my custom modifications.  The site includes a headshot of me, and links to a new HTML page containing my software projects.
