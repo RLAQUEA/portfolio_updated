@@ -8,6 +8,8 @@ h1 {
   padding-left: 2%;
 
 }
+
+
 p {
   font-family: 'Open Sans', 'sans-serif';
   color: white;
@@ -17,20 +19,15 @@ p {
   padding: 3%;
 }
 
- .topnav {
+.topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
 } 
-
-/* .topnav #projectLinks {
-  display: none;
-  font-family: 'Open Sans', 'sans-serif';
-} */
-
 
 .topnav a {
   color: white;
