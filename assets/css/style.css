@@ -17,58 +17,33 @@ p {
   padding: 3%;
 }
 
-.topnav {
+ .topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-}
+  justify-content: center;
+} 
 
-.topnav #myLinks {
+/* .topnav #projectLinks {
   display: none;
   font-family: 'Open Sans', 'sans-serif';
-}
-
-.topnav #projectLinks {
-  display: none;
-  font-family: 'Open Sans', 'sans-serif';
-}
+} */
 
 
 .topnav a {
   color: white;
-  padding: 25px 34px;
   text-decoration: none;
-  font-size: 34px;
-  display: block;
-
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+ 
 }
 
-.topnav a.icon {
-  background: #333;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
 
 .topnav a:hover {
-  background-color: teal;
-}
-
-.top {
-  text-align: center;
-  align-items: center;
-  font-family: 'Open Sans', 'sans-serif';
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  font-size: 24px;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 2% 2%;
+  background-color: lightseagreen;
 }
 
 .active {
@@ -144,67 +119,14 @@ footer.page-footer {
 }
 
 
-/* Styling for Projects.html (not connected to other pages yet) */
-
-
- .connect-title { 
-  color:#5c6bc0;
-  padding: 3%;
-  border-radius: 5%;
-} 
-.project-link {
-    color: teal;;
-    border: solid 3px lightcyan;
-    padding: 3%;
-    border-radius: 5%; 
-
-  }
-
 .project-title {
   text-align: center;
   margin-top: 5%;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   font-family: 'Open Sans', 'sans-serif';
-  background-color: black;
-  color: white;
+  color: lightskyblue;
   padding: 3%;
-}
-.project-button {
-  font-size: 100%;
-  font-weight: bold;
-  font-family: 'Open Sans', 'sans-serif';
-  color: white;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  border: solid 2px red;
-  justify-content: center;
-  border-radius: 10%;
-  margin: 8%;
-  max-width: 10%;
-}
-
-.projects {
-  font-size: 26px;
-  font-family: 'Open Sans', 'sans-serif';
-  color: white;
-  background-color: black;
-  text-align: center;
-  padding: 3%;
-}
-
-.repo-button {
-  font-size: large;
-  background-color: whitesmoke;
-  padding: 2%;
-  font-weight: bold;
-  color: #5c6bc0;
-  opacity: 85%;
-  display: flex;
-  margin-top: 5%;
-  border-radius: 15%;
-  border: solid 2px teal;
 }
 
 .images {
@@ -224,4 +146,6 @@ footer.page-footer {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+  padding: 5% 5% 5% 5%;
+  border: solid white 3px;
 } 
