@@ -3,12 +3,27 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+h1 {
+  color: aliceblue;
+  padding-left: 2%;
 
+}
+p {
+  font-family: 'Open Sans', 'sans-serif';
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: teal;
+  padding: 3%;
+}
 
 .topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .topnav #myLinks {
@@ -16,16 +31,23 @@ body {
   font-family: 'Open Sans', 'sans-serif';
 }
 
+.topnav #projectLinks {
+  display: none;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+
 .topnav a {
   color: white;
   padding: 25px 34px;
   text-decoration: none;
   font-size: 34px;
   display: block;
+
 }
 
 .topnav a.icon {
-  background: black;
+  background: #333;
   display: block;
   position: absolute;
   right: 0;
@@ -33,49 +55,55 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: teal;
+}
+
+.top {
+  text-align: center;
+  align-items: center;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  font-size: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2% 2%;
 }
 
 .active {
-  background-color: black;
+  background-color: #333;
   color: white;
   font-family: 'Open Sans', 'sans-serif';
 }
 
-.btn-group-vertical {
-  color:white;
-  background-color: cornflowerblue;
-  border: solid white 2px;
-  border-radius: 10%;
-  display: flex;
-  flex-direction: column;
-  line-height: 200%;
-  padding: 5%;
-  min-width: 75px;
-  text-align: center;
-  font-size: x-large;
-}
 
-.btn-group {
-  padding: 10% 10% 10% 10%;
-  background-color: white;
+.wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  min-width: 150px;
-  margin-right: 25%;  
+  justify-content: center;
 }
+
+
+.container {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
 
 .contact {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   font-family: 'Open Sans', 'sans-serif';
-  font-size: 36px;
+  font-size: 38px;
+  font-weight: bold;
   text-align: center;
   padding-top: 5%;
+  padding-right: 42%;
 }
 
 .flex-item {
@@ -85,7 +113,7 @@ justify-content: center;
 align-items: center;
 flex-wrap: nowrap;
 font-family: 'Open Sans', 'sans-serif';
-margin-right: 45%;
+margin-right: 48%;
 }
 
 .page-footer {
@@ -96,42 +124,6 @@ text-align: center;
 footer.page-footer {
   margin-left: 30%;
 
-}
-
-p {
-  font-family: 'Open Sans', 'sans-serif';
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: blueviolet;
-  padding: 3% 2%;
-}
-
-.top {
-  text-align: center;
-  align-items: center;
-  font-family: 'Open Sans', 'sans-serif';
-  font-weight: bold;
-  font-size: 30px;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 2% 2%;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  justify-content: center;
-  padding-right: 10%;
 }
 
 
@@ -152,7 +144,6 @@ p {
 }
 
 
-
 /* Styling for Projects.html (not connected to other pages yet) */
 
 
@@ -171,22 +162,36 @@ p {
 
 .project-title {
   text-align: center;
-  margin-top: 3%;
-  background-color: teal;
+  margin-top: 5%;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: black;
   color: white;
-  border: solid 3px lightcyan;
   padding: 3%;
-  border-radius: 5%;
 }
 .project-button {
-  font-size: 36px;
-  padding: 3%;
+  font-size: 100%;
   font-weight: bold;
-  color:black;
+  font-family: 'Open Sans', 'sans-serif';
+  color: white;
+  background-color: black;
   display: flex;
-  margin-top: 5%;
-  justify-content: space-evenly;
-  border-radius: 15%;
+  flex-direction: column;
+  border: solid 2px red;
+  justify-content: center;
+  border-radius: 10%;
+  margin: 8%;
+  max-width: 10%;
+}
+
+.projects {
+  font-size: 26px;
+  font-family: 'Open Sans', 'sans-serif';
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 3%;
 }
 
 .repo-button {
@@ -210,7 +215,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-margin-top: 10%;
+  margin-top: 10%;
 }
 
 .code, .weather, .parks {
